@@ -11,6 +11,7 @@
     box-sizing: border-box;
     outline: none;
     border: none;
+    text-decoration: none;
 }
 
 body{
@@ -18,8 +19,33 @@ body{
     background-color: var(--black);
 }
 
-h1,p,button{
+h1,p,a,button{
     text-transform: capitalize;
     color: var(--white);
+}
+
+button{
+    color: var(--black);
+}
+
+.container{
+    width: 100%;
+    min-height: 100dvh;
+    margin: 0 auto;
+
+}
+
+
+
+
+
+
+
+
+.carrossel img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
 }
 
